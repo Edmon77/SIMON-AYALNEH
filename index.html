@@ -202,12 +202,19 @@
         </p>
 
         <!-- Scroll Indicator -->
-        <div class="mt-10 animate-bounce text-white/70">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-            </svg>
-            <p class="text-xs mt-1">Scroll down to see my work</p>
-        </div>
+<a href="#viewer-choice" 
+   class="mt-10 animate-bounce text-white/70 flex flex-col items-center group transition-all duration-300">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" 
+         class="h-8 w-8 mx-auto transition-transform duration-300 group-hover:translate-y-1 group-hover:text-[#bd5b15]" 
+         fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+    </svg>
+
+    <p class="text-xs mt-1 transition-all duration-300 group-hover:text-[#bd5b15] group-hover:scale-110">
+        Scroll down to see my work
+    </p>
+</a>
     </div>
 
 </section>
@@ -232,13 +239,13 @@
         <a href="#weddings" 
            class="px-12 py-6 text-xl md:text-2xl font-semibold border-2 border-gray-300 rounded-lg 
                   text-gray-700 transition-all duration-300 transform hover:scale-105 
-                  hover:bg-white hover:text-[#ff6a00] shadow-md hover:shadow-lg">
+                  hover:bg-white hover:text-[#bd5b15] shadow-md hover:shadow-lg">
             Photos
         </a>
         <a href="#videography" 
            class="px-12 py-6 text-xl md:text-2xl font-semibold border-2 border-gray-300 rounded-lg 
                   text-gray-700 transition-all duration-300 transform hover:scale-105 
-                  hover:bg-white hover:text-[#ff6a00] shadow-md hover:shadow-lg">
+                  hover:bg-white hover:text-[#bd5b15] shadow-md hover:shadow-lg">
             Videos
         </a>
     </div>
@@ -693,6 +700,7 @@ videoModal.addEventListener('click', (e) => {
     </script>
 </body>
 </html>
+
 
 
 

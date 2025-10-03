@@ -176,13 +176,14 @@
 
 
 
-<!-- 0. ABOUT Section Full-Screen -->
- <section id="about" class="relative w-full h-screen overflow-hidden m-0 p-0">
-<!-- Scrolling Images Container -->
 
-    <div class="absolute top-0 left-0 flex w-max h-full">
-        <img src="IMG_9818.JPG">
-    </div>
+
+<!-- 0. ABOUT Section Full-Screen -->
+<section id="about" class="relative w-full h-screen overflow-hidden m-0 p-0">
+
+    <!-- Single Background Image with Blur -->
+    <img src="IMG_9818.JPG" 
+         class="absolute inset-0 w-full h-full object-cover blur-sm" />
 
     <!-- Overlay -->
     <div class="absolute inset-0 bg-black/40"></div>
@@ -692,5 +693,6 @@ videoModal.addEventListener('click', (e) => {
     </script>
 </body>
 </html>
+
 
 
